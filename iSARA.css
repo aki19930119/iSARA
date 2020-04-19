@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+body{
+    margin: 0px;
+    color: #333;
+}
+/*フォントサイズと太さを調整*/
+.isaraTopText1{
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 10px;/*画像との幅を調整*/
+}
+.isaraTopText2{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+/*ヘッダー画像と文字の高さを調節*/
+.header-in p{
+    margin: 0;
+    display: inline-block;
+}
+/*<headerの画像*/
+header img{
+    vertical-align: bottom;
+}
+/*<header>*/
+header{
+    height: 70px;
+}
+/*資料請求のボタン*/
+.header-in{
+    width: 100%;
+    position: fixed; /* 固定 */
+    top: 0px; /* 一番上に表示 */
+    background-color: white;
+    padding: 15px 50px;
+    }
+/*サンプル*/
+/*資料請求ボタンクの大きさ*/
+.btn{
+    width: 318px;
+    height: 44px;
+    border: 1px solid #d86c67;
+    background-color: #d86c67;
+    border-radius: 25px;
+    text-align: center;
+    display: inline-block;
+    float: right;
+    margin-right: 200px;
+}
+/*ボタンの中のテキスト*/
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    display: block;
+    height: 100%;
+    padding-top: 10px;
+}
+/*ボタンに乗せた時に色が変わる*/
+.btn:hover{
+    background-color:#d84940;
+}
+/*トップページのバックグラウンド*/
+.isaraTop{
+    background-image: url(img/iSARAmain.jpg);
+    background-size: cover;
+    height: 505px;
+    text-align: center;
+}
+/*Line-heightあとでもっと調べる*/
+.isaraTop h1{
+    padding-top: 80px;
+    line-height: 50px;
+    margin: 0px;
+}
+.isaraTop p{
+    font-weight: 600;
+}
+.conversion {
+    background-color: #ebb94d;
+    padding: 30px 0;
+    text-align: center;
+    height: 550px;
+}
+
+
+code{
+    margin: 0px;
+    line-height: 40px;
+    background-color: white;
+    font-size: 20px;
+    color: red;
+}
+
+.conversion p{
+    color: white;
+    font-size: 20px;
+    margin: 0px;
+
+}
+
+.orangeText3 p{
+    font-weight: 600;
+    font-size: 20px;
+    margin: 30px;
+    line-height: 40px;
+    letter-spacing: 2px;
+}
+
+.btn2{
+    width: 1000px;
+    height: 100px;
+    border: 5px1solid #d86c67;
+    background-color: #d86c67;
+    border-radius: 50px;
+    text-align: center;
+    display: inline-block;
+    margin: 30px;
+}
+/*ボタンの中のテキスト2*/
+.btn2Text{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    display: block;
+    height: 100%;
+    padding-top: 20px;
+}
+.btn2:hover{
+    background-color:#d84940;
+}
+
